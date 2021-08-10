@@ -1,0 +1,36 @@
+{
+  "name": "JXLoginSDK",
+  "version": "0.1.0",
+  "summary": "A short description of JXLoginSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MrLeoZou/JXLoginSDK.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MrLeoZou@gmail.com": "roczpzou@tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/MrLeoZou/JXLoginSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JXLoginSDK/Classes/**/*",
+  "resource_bundles": {
+    "JXLoginSDK": [
+      "JXLoginSDK/Assets/**/*"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "JXBifrost": [
+
+    ],
+    "JXUserDataSDK": [
+
+    ]
+  }
+}

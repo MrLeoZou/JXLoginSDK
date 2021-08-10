@@ -1,0 +1,6 @@
+framework module JXLoginSDK {
+  umbrella header "JXLoginSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

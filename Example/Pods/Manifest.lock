@@ -1,0 +1,27 @@
+PODS:
+  - JXBifrost (0.1.0)
+  - JXLoginSDK (0.1.0):
+    - JXBifrost
+    - JXUserDataSDK
+  - JXUserDataSDK (0.1.1)
+
+DEPENDENCIES:
+  - JXLoginSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/MrLeoZou/componentizationDemo:
+    - JXBifrost
+    - JXUserDataSDK
+
+EXTERNAL SOURCES:
+  JXLoginSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JXBifrost: 14d3e4068d974ecdfda78881d0027735b46e7b3e
+  JXLoginSDK: 0a31722a801b39d01d2a4a39cfdc0e8dae15beee
+  JXUserDataSDK: 92a931566f5ac820353345916bd2da7e7743c67f
+
+PODFILE CHECKSUM: 5f9832da002a58b7f0fee00ed97b52d1342409f2
+
+COCOAPODS: 1.10.1

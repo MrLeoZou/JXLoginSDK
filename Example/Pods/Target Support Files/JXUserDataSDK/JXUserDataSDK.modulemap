@@ -1,0 +1,6 @@
+framework module JXUserDataSDK {
+  umbrella header "JXUserDataSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
