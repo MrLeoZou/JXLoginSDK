@@ -65,7 +65,7 @@
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" systemColor="systemGray6Color"/>
             <constraints>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="u33-zg-ONy" secondAttribute="trailing" constant="50" id="G9K-ph-EVu"/>
                 <constraint firstItem="RL8-II-JTI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="MF1-LE-ZAe"/>
@@ -87,8 +87,8 @@
     </objects>
     <resources>
         <image name="applelogo" catalog="system" width="103" height="128"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

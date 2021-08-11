@@ -6,10 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JXLoginService.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JXLoginManager : NSObject
+@interface JXLoginManager : NSObject<JXLoginProtocol>
+
+- (void)getLoginInfo:(void(^_Nullable)(NSError * _Nullable error, id _Nullable data))completion;
 
 @end
 

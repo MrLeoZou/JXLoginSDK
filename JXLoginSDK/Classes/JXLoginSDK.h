@@ -9,5 +9,6 @@
 #define JXLoginSDK_h
 
 #import "JXLoginManager.h"
+#import "JXLoginService.h"
 
 #endif /* JXLoginSDK_h */

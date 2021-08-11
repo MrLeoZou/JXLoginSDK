@@ -9,4 +9,8 @@
 
 @implementation JXLoginManager
 
+- (void)getLoginInfo:(void (^)(NSError * _Nullable, id _Nullable))completion {
+    //TODO: 逻辑代码
+}
+
 @end
