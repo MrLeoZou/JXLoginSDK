@@ -13,6 +13,7 @@
 #import "JXLoginManager.h"
 #import "JXLoginPhoneViewController.h"
 #import "JXLoginSDK.h"
+#import "JXLoginService.h"
 
 FOUNDATION_EXPORT double JXLoginSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char JXLoginSDKVersionString[];

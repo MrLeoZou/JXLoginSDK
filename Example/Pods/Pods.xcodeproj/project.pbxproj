@@ -7,188 +7,188 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03C9C4024F924D4FD23851BD1E7FC5EB /* JXUserLoginInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3548F5C55EFE2BCC7E2050F914497785 /* JXUserLoginInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06BE9C7F77739FBD7896AE1F9B665017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D8F520A622AC1BADD45BA759FC1E0C /* Foundation.framework */; };
-		0EB7EFBAECE5FE697C83A136C2046868 /* JXUserDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C42DB7E1582259E8596E69321CC25 /* JXUserDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		157ACA1059D31DA8B9A90EBD90BDC663 /* JXLoginSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 502746356D6CDD1B244632838EBF5019 /* JXLoginSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26A694936448F8EC02217E3AE415732A /* JXLoginSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5AA9D0F79EF8D6741CE1CBFC69632DF /* JXLoginSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AE0AEBF332DCE75D6CBA9386C2B57AD /* JXUserLoginInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB429897966353BC4093257F7F1937BF /* JXUserLoginInfo.m */; };
+		0D23AF19BFA8E5D24C337D2A6A34EFBD /* JXUserDataSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D77FFF7BC03B32C3093F1ACFB38618 /* JXUserDataSDK.framework */; };
+		2255687A5B24D4152BD3FE4F62A8D6F7 /* JXLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0E0C4E0F4304D0A3421B92BCA4E190 /* JXLoginManager.m */; };
+		26D86141C64D96672B05201851B887CF /* JXLoginSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8807EBC008F37B77C8CF00F0FEE20A /* JXLoginSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30A02FDD1C29D3DD29EEE1AD714A243E /* JXUserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FA57E1544DEA57911AEA8D570B026A /* JXUserDataManager.m */; };
 		31FB78B71E40983841EA06AC638F53FC /* JXBifrost-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CC9CBC731351433854849F8E6A9AD1 /* JXBifrost-dummy.m */; };
-		33C33DE1C299F9F5534D01CF880859CE /* JXLoginPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3843A24CA16F7E975F2577D4FF4242E7 /* JXLoginPhoneViewController.m */; };
-		41CD048D18BC9C65B156B71177F18D13 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF934B34AC7950C00192D7BA01BADC00 /* Image.xcassets */; };
 		427111A19AC68D498939D6255360528B /* Bifrost.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D2C2D6CC11A42F242F7738B62848BE4 /* Bifrost.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A7C89A38458926E031F28696DE3C716 /* JXLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E5633758FA28662E97550795D981B5 /* JXLoginManager.m */; };
-		4AD3B86726C2D810007F79B2 /* JXLoginService.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD3B86626C2D80F007F79B2 /* JXLoginService.h */; };
+		48EC55EA760907F1B1E3860A624F86B6 /* JXLoginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E63A1F24FD1CC0C8E6B34FB3B67BA707 /* JXLoginManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E8D342454DA27ACBE1D1C778B8D74FB /* Pods-JXLoginSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6551B88E111A13F65266A2114FE3672B /* Pods-JXLoginSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62647B30FD1054BE959EF1E724F8D1CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D8F520A622AC1BADD45BA759FC1E0C /* Foundation.framework */; };
-		6865B7E3590A4DA54331BD60883748B7 /* JXUserDataSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAF25E944CF32155D413D61F5A9826C /* JXUserDataSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BFD020D0751B52F2A41198F8E019B16 /* JXLoginSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA246909BA85726996E6E16F79727FE /* JXLoginSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E1B04BA0E73ACA32790950E688A3FDA /* JXUserCompanyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 315C0985B983DCD89F647B50C68A05BE /* JXUserCompanyInfo.m */; };
 		6E69F1CBE1190A87A2D8859F8F33FA59 /* JXBifrost-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8275D65A39A932A571610D3B084B1E31 /* JXBifrost-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74162E1FA0600564BC25D3CE153B97C0 /* JXUserCompanyInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B21B37A65BE1FE86DCF2453F357D96CF /* JXUserCompanyInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76B25C1AEB734524461098F9904F4EAD /* JXLoginPhoneViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B6EB572E062B58FD7B5C74B3F4EB971 /* JXLoginPhoneViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7010C550DBAD20A127E03609075EF3CC /* JXLoginSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C6FD360AF916B10380CF65E0F197236 /* JXLoginSDK.bundle */; };
+		74703998BD3A207C97946BB5CB3528AC /* JXUserLoginInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB429897966353BC4093257F7F1937BF /* JXUserLoginInfo.m */; };
+		78F2BF59F1955AFCFA73934FFE566CA8 /* JXLoginSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 866A87B327E962FE068953CB881CAEC8 /* JXLoginSDK-dummy.m */; };
+		7A38EEC7F95C2EC6D1637A38D711E9F0 /* JXLoginService.h in Headers */ = {isa = PBXBuildFile; fileRef = 327CD757CA8D5D68FC8B03A90DAEF28D /* JXLoginService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		801323C825D530E7C130B62FBFC78B3C /* Pods-JXLoginSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFE6DF074169D10AEEB72F60FA2731 /* Pods-JXLoginSDK_Tests-dummy.m */; };
-		8BE8626F924F996EFD16F25C3BAE38EB /* JXLoginSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 549929B54E07AB105EC2F4D510EECC78 /* JXLoginSDK-dummy.m */; };
-		8EF1025AC0D4BC4036AC2A1DD62524A7 /* JXBifrost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88618D0C47019D9C8C052BDAF1C42BB6 /* JXBifrost.framework */; };
-		902CA6D35E3687C139876AB9A3114D10 /* JXUserDataSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7116008148E22A2BA1DBF328C4DDBE43 /* JXUserDataSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8047D854DEBB428B2E0FA5A2F86467A3 /* JXUserDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C42DB7E1582259E8596E69321CC25 /* JXUserDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		808280B60D9CDAE8C70AE6829559BFF1 /* JXUserCompanyInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B21B37A65BE1FE86DCF2453F357D96CF /* JXUserCompanyInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E0E51473F4E1C174DA48291018EA32D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D8F520A622AC1BADD45BA759FC1E0C /* Foundation.framework */; };
+		90F758C60D38010A3D7286202265A9E1 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9081EDCDF1FFE5EC6D87B4F4A77DFB07 /* Image.xcassets */; };
 		91F678C54EC5296F840333055FD61434 /* BifrostHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D087446FC4A26DA018B8D7928800C1A6 /* BifrostHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AA1785F7013ED7AFD95E268AED35FCE /* BifrostProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6E11D8855B1F183B6C536484BB86B9 /* BifrostProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6F67D3BCBA78660E60D4D8999FA6BE5 /* JXLoginPhoneViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B080608339966552AC2223109FDADCC2 /* JXLoginPhoneViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9838DED3C356F5FEF51E41318E55935 /* JXUserDataSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAF25E944CF32155D413D61F5A9826C /* JXUserDataSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A984F8E2D2B4FCE5A08DA708DE442D70 /* Bifrost+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAECACD2B4812027BD86AC6FD355999 /* Bifrost+Router.m */; };
 		AD5AA83BD7A965509662B23F1ACD4D54 /* Pods-JXLoginSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FF319CD869021131E9345AD94472C36 /* Pods-JXLoginSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF3603D3998AE423AB3DD22119103EA0 /* Bifrost.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6B384F8069E7BDE7CA69A5FE34036 /* Bifrost.m */; };
-		C43DB5693A0F7BA2DAB4761C2070747F /* JXLoginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C9EE63E0E6414A006044BB67776DA8 /* JXLoginManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B10CB8F71606C200F8A7EF97F1BA9F88 /* JXUserLoginInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3548F5C55EFE2BCC7E2050F914497785 /* JXUserLoginInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6ADF1382A902B34CC164EEF449C021A /* JXLoginPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C015BDF384C0590281458E1B09AD23C /* JXLoginPhoneViewController.xib */; };
+		CAE14156576BB45242DCCE2B65981E3F /* JXBifrost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88618D0C47019D9C8C052BDAF1C42BB6 /* JXBifrost.framework */; };
 		CB3A2D08B38DDCFFD5BCF3CEB92EDBF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D8F520A622AC1BADD45BA759FC1E0C /* Foundation.framework */; };
-		CDEA6F19B24A5B718228B88848A8F16C /* JXUserDataSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D77FFF7BC03B32C3093F1ACFB38618 /* JXUserDataSDK.framework */; };
-		CFE4B3EB2AA08CA0DAA0721CFB17ED2C /* JXUserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FA57E1544DEA57911AEA8D570B026A /* JXUserDataManager.m */; };
+		DB78D87FD016291643B61F30D178ACFC /* JXUserDataSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9727D349221E3243417CD88B411E1422 /* JXUserDataSDK-dummy.m */; };
 		DDB03E0431DA3747C77C89936C483996 /* Pods-JXLoginSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F144161BD39D6811EABFB97453F813 /* Pods-JXLoginSDK_Example-dummy.m */; };
+		E5556986ECD7757195F1347BC6169217 /* JXLoginPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E2701869FC50675930BE473F4C522C /* JXLoginPhoneViewController.m */; };
 		EA0B0454C755142514CF2F3B255EDAD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D8F520A622AC1BADD45BA759FC1E0C /* Foundation.framework */; };
-		ED43D77E23078B68D59B1F37EFB8C6C3 /* JXUserDataSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9727D349221E3243417CD88B411E1422 /* JXUserDataSDK-dummy.m */; };
-		F117B7F4F9541C0E0CB9FC92FB0F3946 /* JXLoginPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74B03FBF67267FA869852C9012D6A96F /* JXLoginPhoneViewController.xib */; };
-		F22B9BCFFD354AA6D83225C145D6F0F5 /* JXUserCompanyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 315C0985B983DCD89F647B50C68A05BE /* JXUserCompanyInfo.m */; };
-		F556C5BB94A8B7EE8DC1CBA0B5A66874 /* JXLoginSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C6FD360AF916B10380CF65E0F197236 /* JXLoginSDK.bundle */; };
+		F707AE9262571E15BB935C258B3A8865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D8F520A622AC1BADD45BA759FC1E0C /* Foundation.framework */; };
 		F9108E9AB6AD89655D8356F5F0F376D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D8F520A622AC1BADD45BA759FC1E0C /* Foundation.framework */; };
+		FCA4DF1989BBCF45B90E24A08A70BA3E /* JXUserDataSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7116008148E22A2BA1DBF328C4DDBE43 /* JXUserDataSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCF72055775F2C2EB7580DB8ED0E27A7 /* Bifrost+Router.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B1F1C8FE445D495D7D7CE177BA7918 /* Bifrost+Router.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		08D4EDE109D29EB894407CBA121EBDD3 /* PBXContainerItemProxy */ = {
+		233F76CD122132F08C84361898CE7352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDECDB592F355A0C122DDFC4BFD69877;
+			remoteInfo = JXUserDataSDK;
+		};
+		59266775F53EF3630684158ADD503B83 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D801394B06BCE60E4E326B248BA25935;
 			remoteInfo = JXBifrost;
 		};
-		463107073DDE84A05F9B2C1321D4ADB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 216F635345FA25933E15A00650F2E2EE;
-			remoteInfo = "JXLoginSDK-JXLoginSDK";
-		};
-		622D58E2F9C0C6E34ED413F56EFB772C /* PBXContainerItemProxy */ = {
+		764C5D10467221782DFA7AC421E75070 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 14EFC07FD492C85E576F1FF9F2DED547;
 			remoteInfo = "Pods-JXLoginSDK_Example";
 		};
-		D4B5C397EA650B407C90B2965E146E36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52D4205C08AE7C37987464F813562290;
-			remoteInfo = JXLoginSDK;
-		};
-		D4EA840DED308B0B2ACD8A4293B4C34F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CDECDB592F355A0C122DDFC4BFD69877;
-			remoteInfo = JXUserDataSDK;
-		};
-		ECFA0601828BDD2CDECC6F21CA8830C5 /* PBXContainerItemProxy */ = {
+		7B42255B91753295DA1D784E6A43F49A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D801394B06BCE60E4E326B248BA25935;
 			remoteInfo = JXBifrost;
 		};
-		F9BF043D66E04806BE8E3DD0802FBC60 /* PBXContainerItemProxy */ = {
+		85443CAD49CF82CB77DE02FD47AE050E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CDECDB592F355A0C122DDFC4BFD69877;
 			remoteInfo = JXUserDataSDK;
 		};
+		8C844DF1E5C2AA509262E66EAEEAD531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52D4205C08AE7C37987464F813562290;
+			remoteInfo = JXLoginSDK;
+		};
+		F08D9BA341787E76D3715186915FD0EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 216F635345FA25933E15A00650F2E2EE;
+			remoteInfo = "JXLoginSDK-JXLoginSDK";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		116767503E1FED8CBFB465229E1FBD61 /* JXLoginSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXLoginSDK-Info.plist"; sourceTree = "<group>"; };
 		137DC652EDC7B2E245E539F5911089D0 /* JXUserDataSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXUserDataSDK-prefix.pch"; sourceTree = "<group>"; };
 		15DCEAA82778C3C555EFAC995FEC6DE0 /* JXUserDataSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXUserDataSDK.modulemap; sourceTree = "<group>"; };
 		17B1F1C8FE445D495D7D7CE177BA7918 /* Bifrost+Router.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Bifrost+Router.h"; path = "JXBifrost/Classes/Bifrost+Router.h"; sourceTree = "<group>"; };
 		18538840B31DAA51481212FB19EA24F2 /* Pods-JXLoginSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXLoginSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		193A73685443F5D0B352EC7DEB1A4DBB /* JXUserDataSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXUserDataSDK.debug.xcconfig; sourceTree = "<group>"; };
 		1AEF2A15D6550304CD7B81C983A143E6 /* Pods-JXLoginSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXLoginSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1EFD8856763E90B0826D9D7E7FA86815 /* Pods_JXLoginSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXLoginSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFD8856763E90B0826D9D7E7FA86815 /* Pods_JXLoginSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JXLoginSDK_Example.framework; path = "Pods-JXLoginSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFFE6DF074169D10AEEB72F60FA2731 /* Pods-JXLoginSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXLoginSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		29E5633758FA28662E97550795D981B5 /* JXLoginManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXLoginManager.m; path = JXLoginSDK/Classes/JXLoginManager.m; sourceTree = "<group>"; };
-		2C6FD360AF916B10380CF65E0F197236 /* JXLoginSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXLoginSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		30FEE09B68D0B2863D222B6D453BEA02 /* JXLoginSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXLoginSDK.release.xcconfig; sourceTree = "<group>"; };
-		31073E035848F1B683CAE690A8FFBC21 /* JXLoginSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXLoginSDK.modulemap; sourceTree = "<group>"; };
+		2044CD1EBA85ABC7EACE443E9DB0F2B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2C015BDF384C0590281458E1B09AD23C /* JXLoginPhoneViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JXLoginPhoneViewController.xib; path = JXLoginSDK/Assets/JXLoginPhoneViewController.xib; sourceTree = "<group>"; };
+		2C6FD360AF916B10380CF65E0F197236 /* JXLoginSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JXLoginSDK.bundle; path = "JXLoginSDK-JXLoginSDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		315C0985B983DCD89F647B50C68A05BE /* JXUserCompanyInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXUserCompanyInfo.m; path = JXUserDataSDK/Classes/JXUserCompanyInfo.m; sourceTree = "<group>"; };
-		321AA6A677FF60153D6E5723335136F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		327CD757CA8D5D68FC8B03A90DAEF28D /* JXLoginService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXLoginService.h; path = JXLoginSDK/Classes/JXLoginService.h; sourceTree = "<group>"; };
+		32C216474A06BA0A76D6525B5E1D1144 /* JXLoginSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXLoginSDK.release.xcconfig; sourceTree = "<group>"; };
 		3548F5C55EFE2BCC7E2050F914497785 /* JXUserLoginInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXUserLoginInfo.h; path = JXUserDataSDK/Classes/JXUserLoginInfo.h; sourceTree = "<group>"; };
-		3843A24CA16F7E975F2577D4FF4242E7 /* JXLoginPhoneViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXLoginPhoneViewController.m; path = JXLoginSDK/Classes/JXLoginPhoneViewController.m; sourceTree = "<group>"; };
 		3D2C2D6CC11A42F242F7738B62848BE4 /* Bifrost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Bifrost.h; path = JXBifrost/Classes/Bifrost.h; sourceTree = "<group>"; };
+		3DB04B5E405AB0606B49E8FD28D4CA22 /* JXLoginSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXLoginSDK.debug.xcconfig; sourceTree = "<group>"; };
 		40E76ACDFA57AB27635C9F46B8D90359 /* JXUserDataSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXUserDataSDK-Info.plist"; sourceTree = "<group>"; };
+		4300FBB1B4E866AD973A5700533FEB39 /* JXLoginSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JXLoginSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4A652EF4207401F53DCDD96ED768520C /* Pods-JXLoginSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXLoginSDK_Example.modulemap"; sourceTree = "<group>"; };
-		4AD3B86626C2D80F007F79B2 /* JXLoginService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXLoginService.h; sourceTree = "<group>"; };
-		4FF18016B89F2DAB9115C2EF8BB515EE /* ResourceBundle-JXLoginSDK-JXLoginSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JXLoginSDK-JXLoginSDK-Info.plist"; sourceTree = "<group>"; };
-		502746356D6CDD1B244632838EBF5019 /* JXLoginSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXLoginSDK.h; path = JXLoginSDK/Classes/JXLoginSDK.h; sourceTree = "<group>"; };
+		5319772BDBA0B0E91075201B3083602E /* JXLoginSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXLoginSDK.modulemap; sourceTree = "<group>"; };
 		541B21F1F3A15380424448D811EB722B /* Pods-JXLoginSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXLoginSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		542533EB80A7840824FCD3D8CEB73778 /* JXBifrost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXBifrost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		549929B54E07AB105EC2F4D510EECC78 /* JXLoginSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXLoginSDK-dummy.m"; sourceTree = "<group>"; };
+		542533EB80A7840824FCD3D8CEB73778 /* JXBifrost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXBifrost.framework; path = JXBifrost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7B9E92CA67603C0AFA8920E5C0B642 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5BD1EE3D2EAA55E61ABFDE8D911DE51A /* JXLoginSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXLoginSDK-prefix.pch"; sourceTree = "<group>"; };
 		5E26EBF91FA25CCC712CB2D69119AAF1 /* Pods-JXLoginSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXLoginSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		63B00ECD33FAE9B52C90A3F15A965EB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		63E73A52778D10CC761CE67D984BCE35 /* Pods-JXLoginSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXLoginSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		6551B88E111A13F65266A2114FE3672B /* Pods-JXLoginSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXLoginSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		7116008148E22A2BA1DBF328C4DDBE43 /* JXUserDataSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXUserDataSDK.h; path = JXUserDataSDK/Classes/JXUserDataSDK.h; sourceTree = "<group>"; };
 		72CC9CBC731351433854849F8E6A9AD1 /* JXBifrost-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXBifrost-dummy.m"; sourceTree = "<group>"; };
-		74B03FBF67267FA869852C9012D6A96F /* JXLoginPhoneViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = JXLoginPhoneViewController.xib; path = JXLoginSDK/Assets/JXLoginPhoneViewController.xib; sourceTree = "<group>"; };
+		734F4F73E90522E17A55E54E29F1A8C4 /* ResourceBundle-JXLoginSDK-JXLoginSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JXLoginSDK-JXLoginSDK-Info.plist"; sourceTree = "<group>"; };
 		754872509E9F4D1510719ABFDEC3229E /* JXBifrost.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXBifrost.modulemap; sourceTree = "<group>"; };
 		7FF319CD869021131E9345AD94472C36 /* Pods-JXLoginSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXLoginSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8275D65A39A932A571610D3B084B1E31 /* JXBifrost-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXBifrost-umbrella.h"; sourceTree = "<group>"; };
+		866A87B327E962FE068953CB881CAEC8 /* JXLoginSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXLoginSDK-dummy.m"; sourceTree = "<group>"; };
 		88618D0C47019D9C8C052BDAF1C42BB6 /* JXBifrost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXBifrost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D77FFF7BC03B32C3093F1ACFB38618 /* JXUserDataSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXUserDataSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B6EB572E062B58FD7B5C74B3F4EB971 /* JXLoginPhoneViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXLoginPhoneViewController.h; path = JXLoginSDK/Classes/JXLoginPhoneViewController.h; sourceTree = "<group>"; };
+		8BA246909BA85726996E6E16F79727FE /* JXLoginSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXLoginSDK-umbrella.h"; sourceTree = "<group>"; };
+		8E8807EBC008F37B77C8CF00F0FEE20A /* JXLoginSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXLoginSDK.h; path = JXLoginSDK/Classes/JXLoginSDK.h; sourceTree = "<group>"; };
+		9081EDCDF1FFE5EC6D87B4F4A77DFB07 /* Image.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = JXLoginSDK/Assets/Image.xcassets; sourceTree = "<group>"; };
 		91B0D1558AA9DB386AC6CE87FC286B1D /* Pods-JXLoginSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXLoginSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9727D349221E3243417CD88B411E1422 /* JXUserDataSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXUserDataSDK-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A0E0C4E0F4304D0A3421B92BCA4E190 /* JXLoginManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXLoginManager.m; path = JXLoginSDK/Classes/JXLoginManager.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EAF25E944CF32155D413D61F5A9826C /* JXUserDataSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXUserDataSDK-umbrella.h"; sourceTree = "<group>"; };
 		A0FA57E1544DEA57911AEA8D570B026A /* JXUserDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXUserDataManager.m; path = JXUserDataSDK/Classes/JXUserDataManager.m; sourceTree = "<group>"; };
 		A155DB641AB3BDFBD57789DA68A8FCDC /* Pods-JXLoginSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXLoginSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A497EDA90A74407AC1E4D620C5541F14 /* JXUserDataSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXUserDataSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A497EDA90A74407AC1E4D620C5541F14 /* JXUserDataSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXUserDataSDK.framework; path = JXUserDataSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D8FDBF6185B782CA605F38800B8E3E /* Pods-JXLoginSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXLoginSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AF934B34AC7950C00192D7BA01BADC00 /* Image.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Image.xcassets; path = JXLoginSDK/Assets/Image.xcassets; sourceTree = "<group>"; };
+		B080608339966552AC2223109FDADCC2 /* JXLoginPhoneViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXLoginPhoneViewController.h; path = JXLoginSDK/Classes/JXLoginPhoneViewController.h; sourceTree = "<group>"; };
 		B21B37A65BE1FE86DCF2453F357D96CF /* JXUserCompanyInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXUserCompanyInfo.h; path = JXUserDataSDK/Classes/JXUserCompanyInfo.h; sourceTree = "<group>"; };
-		B5C41F89CC7EFEB0BF04A22D65241226 /* JXLoginSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXLoginSDK.debug.xcconfig; sourceTree = "<group>"; };
+		B6E2701869FC50675930BE473F4C522C /* JXLoginPhoneViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXLoginPhoneViewController.m; path = JXLoginSDK/Classes/JXLoginPhoneViewController.m; sourceTree = "<group>"; };
 		B72B2CC15858C5B74BEB780FA0D77DF8 /* Pods-JXLoginSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXLoginSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BEAAB9B82C46A931F008D0507CA51B74 /* JXLoginSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXLoginSDK-prefix.pch"; sourceTree = "<group>"; };
-		C033AE3765D6F7FFC8C687F78502D237 /* JXLoginSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXLoginSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C033AE3765D6F7FFC8C687F78502D237 /* JXLoginSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXLoginSDK.framework; path = JXLoginSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36B089697446967B80EA37576D1EC52 /* JXBifrost-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXBifrost-prefix.pch"; sourceTree = "<group>"; };
-		CB4636621BA3468B895D81AF29DEDDD2 /* JXLoginSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXLoginSDK-Info.plist"; sourceTree = "<group>"; };
-		CB5547B9FFD862841FD2C1CE8223A7D5 /* JXLoginSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JXLoginSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB6E8CB34444357BD491D2000EEC22C4 /* JXUserDataSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXUserDataSDK.release.xcconfig; sourceTree = "<group>"; };
 		D087446FC4A26DA018B8D7928800C1A6 /* BifrostHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BifrostHeader.h; path = JXBifrost/Classes/BifrostHeader.h; sourceTree = "<group>"; };
 		D2E58ABF243B455AFE8F1726BBCCCD6E /* Pods-JXLoginSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXLoginSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DA2CFBEFDB705F097965ECE8D50F2D9C /* Pods-JXLoginSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXLoginSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF6E11D8855B1F183B6C536484BB86B9 /* BifrostProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BifrostProtocol.h; path = JXBifrost/Classes/BifrostProtocol.h; sourceTree = "<group>"; };
-		E1C9EE63E0E6414A006044BB67776DA8 /* JXLoginManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXLoginManager.h; path = JXLoginSDK/Classes/JXLoginManager.h; sourceTree = "<group>"; };
 		E1D8F520A622AC1BADD45BA759FC1E0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E63A1F24FD1CC0C8E6B34FB3B67BA707 /* JXLoginManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXLoginManager.h; path = JXLoginSDK/Classes/JXLoginManager.h; sourceTree = "<group>"; };
 		EB429897966353BC4093257F7F1937BF /* JXUserLoginInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JXUserLoginInfo.m; path = JXUserDataSDK/Classes/JXUserLoginInfo.m; sourceTree = "<group>"; };
 		ECC6B384F8069E7BDE7CA69A5FE34036 /* Bifrost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Bifrost.m; path = JXBifrost/Classes/Bifrost.m; sourceTree = "<group>"; };
 		ED215E85C9D4C384B9E952C7125FF358 /* JXBifrost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXBifrost.debug.xcconfig; sourceTree = "<group>"; };
 		F04DAD02E8FAA279C590DD2ECA1207AD /* JXBifrost-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXBifrost-Info.plist"; sourceTree = "<group>"; };
 		F05C42DB7E1582259E8596E69321CC25 /* JXUserDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXUserDataManager.h; path = JXUserDataSDK/Classes/JXUserDataManager.h; sourceTree = "<group>"; };
 		F1CBDFA640DEC05A72A8637492C200FF /* Pods-JXLoginSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXLoginSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		F327A0F91D9316B29CE5D0900F148126 /* Pods_JXLoginSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXLoginSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5AA9D0F79EF8D6741CE1CBFC69632DF /* JXLoginSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXLoginSDK-umbrella.h"; sourceTree = "<group>"; };
+		F327A0F91D9316B29CE5D0900F148126 /* Pods_JXLoginSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JXLoginSDK_Tests.framework; path = "Pods-JXLoginSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F144161BD39D6811EABFB97453F813 /* Pods-JXLoginSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXLoginSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		FCAECACD2B4812027BD86AC6FD355999 /* Bifrost+Router.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Bifrost+Router.m"; path = "JXBifrost/Classes/Bifrost+Router.m"; sourceTree = "<group>"; };
 		FEA79247A2274232CC5F0EFDC490B9EE /* JXBifrost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXBifrost.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05C47B7D3FC81B1A64C08D5F7BAE5BD7 /* Frameworks */ = {
+		254D46187DADBB2D8856D2AB4BAB8CBB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E429A4D56C97351E7BFF43D0D8279E2 /* Frameworks */ = {
+		2D8C2F3D53E4DD9C0E8FAFFBE0EBEDF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06BE9C7F77739FBD7896AE1F9B665017 /* Foundation.framework in Frameworks */,
+				8E0E51473F4E1C174DA48291018EA32D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,21 +200,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71F0CF67CD9BAA18150DDB678DA0986F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62647B30FD1054BE959EF1E724F8D1CA /* Foundation.framework in Frameworks */,
-				8EF1025AC0D4BC4036AC2A1DD62524A7 /* JXBifrost.framework in Frameworks */,
-				CDEA6F19B24A5B718228B88848A8F16C /* JXUserDataSDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B566DCC6A50219C2B6852116C01B2BED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F9108E9AB6AD89655D8356F5F0F376D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FFE09225C07E2BA3B44A61D62D8B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F707AE9262571E15BB935C258B3A8865 /* Foundation.framework in Frameworks */,
+				CAE14156576BB45242DCCE2B65981E3F /* JXBifrost.framework in Frameworks */,
+				0D23AF19BFA8E5D24C337D2A6A34EFBD /* JXUserDataSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,30 +229,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01EE5F7DB3AA1EF8C3DFC9816A92907F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4300FBB1B4E866AD973A5700533FEB39 /* JXLoginSDK.podspec */,
+				2044CD1EBA85ABC7EACE443E9DB0F2B7 /* LICENSE */,
+				5B7B9E92CA67603C0AFA8920E5C0B642 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		07A7AE70FA4EC5DE06A169E2EA27EAFE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				E1D8F520A622AC1BADD45BA759FC1E0C /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		08FD93C66DE9849FA1D3742A3416B223 /* JXLoginSDK */ = {
-			isa = PBXGroup;
-			children = (
-				AF934B34AC7950C00192D7BA01BADC00 /* Image.xcassets */,
-				E1C9EE63E0E6414A006044BB67776DA8 /* JXLoginManager.h */,
-				29E5633758FA28662E97550795D981B5 /* JXLoginManager.m */,
-				8B6EB572E062B58FD7B5C74B3F4EB971 /* JXLoginPhoneViewController.h */,
-				3843A24CA16F7E975F2577D4FF4242E7 /* JXLoginPhoneViewController.m */,
-				74B03FBF67267FA869852C9012D6A96F /* JXLoginPhoneViewController.xib */,
-				502746356D6CDD1B244632838EBF5019 /* JXLoginSDK.h */,
-				4AD3B86626C2D80F007F79B2 /* JXLoginService.h */,
-				79DAB09F76C2C7C8F5F74BD119599C17 /* Pod */,
-				765EE1B531ED02FFCEA28F2144FC59AC /* Support Files */,
-			);
-			name = JXLoginSDK;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		5B37EF83A8BB569A6EC9F0478B3E3A2E /* Pods-JXLoginSDK_Example */ = {
@@ -272,6 +264,14 @@
 			path = "Target Support Files/Pods-JXLoginSDK_Example";
 			sourceTree = "<group>";
 		};
+		5C32CC846AE5F145D6D742B5663C1268 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C32B6607C23D9D46CFF82BE5B7EE5554 /* JXLoginSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		6C8C7B1B015194B7EBD864472ABD0F5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,32 +280,6 @@
 				07A7AE70FA4EC5DE06A169E2EA27EAFE /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		765EE1B531ED02FFCEA28F2144FC59AC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				31073E035848F1B683CAE690A8FFBC21 /* JXLoginSDK.modulemap */,
-				549929B54E07AB105EC2F4D510EECC78 /* JXLoginSDK-dummy.m */,
-				CB4636621BA3468B895D81AF29DEDDD2 /* JXLoginSDK-Info.plist */,
-				BEAAB9B82C46A931F008D0507CA51B74 /* JXLoginSDK-prefix.pch */,
-				F5AA9D0F79EF8D6741CE1CBFC69632DF /* JXLoginSDK-umbrella.h */,
-				B5C41F89CC7EFEB0BF04A22D65241226 /* JXLoginSDK.debug.xcconfig */,
-				30FEE09B68D0B2863D222B6D453BEA02 /* JXLoginSDK.release.xcconfig */,
-				4FF18016B89F2DAB9115C2EF8BB515EE /* ResourceBundle-JXLoginSDK-JXLoginSDK-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JXLoginSDK";
-			sourceTree = "<group>";
-		};
-		79DAB09F76C2C7C8F5F74BD119599C17 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CB5547B9FFD862841FD2C1CE8223A7D5 /* JXLoginSDK.podspec */,
-				63B00ECD33FAE9B52C90A3F15A965EB5 /* LICENSE */,
-				321AA6A677FF60153D6E5723335136F7 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		8B6495BF2FFA42C4A86C98ADE42C3E15 /* Pods-JXLoginSDK_Tests */ = {
@@ -345,6 +319,7 @@
 				EB429897966353BC4093257F7F1937BF /* JXUserLoginInfo.m */,
 				D4791908853DF3E9C76B69121438084F /* Support Files */,
 			);
+			name = JXUserDataSDK;
 			path = JXUserDataSDK;
 			sourceTree = "<group>";
 		};
@@ -363,6 +338,24 @@
 			path = "../Target Support Files/JXBifrost";
 			sourceTree = "<group>";
 		};
+		C32B6607C23D9D46CFF82BE5B7EE5554 /* JXLoginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9081EDCDF1FFE5EC6D87B4F4A77DFB07 /* Image.xcassets */,
+				E63A1F24FD1CC0C8E6B34FB3B67BA707 /* JXLoginManager.h */,
+				9A0E0C4E0F4304D0A3421B92BCA4E190 /* JXLoginManager.m */,
+				B080608339966552AC2223109FDADCC2 /* JXLoginPhoneViewController.h */,
+				B6E2701869FC50675930BE473F4C522C /* JXLoginPhoneViewController.m */,
+				2C015BDF384C0590281458E1B09AD23C /* JXLoginPhoneViewController.xib */,
+				8E8807EBC008F37B77C8CF00F0FEE20A /* JXLoginSDK.h */,
+				327CD757CA8D5D68FC8B03A90DAEF28D /* JXLoginService.h */,
+				01EE5F7DB3AA1EF8C3DFC9816A92907F /* Pod */,
+				DA94F775657083345123B00E5C241A97 /* Support Files */,
+			);
+			name = JXLoginSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C72E241E0A05457675A35580F240DA40 /* JXBifrost */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,6 +367,7 @@
 				DF6E11D8855B1F183B6C536484BB86B9 /* BifrostProtocol.h */,
 				B9A2FE56C7A25ABB195667493661539A /* Support Files */,
 			);
+			name = JXBifrost;
 			path = JXBifrost;
 			sourceTree = "<group>";
 		};
@@ -381,7 +375,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E016C18C8B3137AD0369A4794F1909CE /* Development Pods */,
+				5C32CC846AE5F145D6D742B5663C1268 /* Development Pods */,
 				6C8C7B1B015194B7EBD864472ABD0F5C /* Frameworks */,
 				D8988DD6AE7D9FCDB4BAC139C9B5E113 /* Pods */,
 				E965A6AA762B398D90FFA9E89CD8DD04 /* Products */,
@@ -413,12 +407,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E016C18C8B3137AD0369A4794F1909CE /* Development Pods */ = {
+		DA94F775657083345123B00E5C241A97 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				08FD93C66DE9849FA1D3742A3416B223 /* JXLoginSDK */,
+				5319772BDBA0B0E91075201B3083602E /* JXLoginSDK.modulemap */,
+				866A87B327E962FE068953CB881CAEC8 /* JXLoginSDK-dummy.m */,
+				116767503E1FED8CBFB465229E1FBD61 /* JXLoginSDK-Info.plist */,
+				5BD1EE3D2EAA55E61ABFDE8D911DE51A /* JXLoginSDK-prefix.pch */,
+				8BA246909BA85726996E6E16F79727FE /* JXLoginSDK-umbrella.h */,
+				3DB04B5E405AB0606B49E8FD28D4CA22 /* JXLoginSDK.debug.xcconfig */,
+				32C216474A06BA0A76D6525B5E1D1144 /* JXLoginSDK.release.xcconfig */,
+				734F4F73E90522E17A55E54E29F1A8C4 /* ResourceBundle-JXLoginSDK-JXLoginSDK-Info.plist */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JXLoginSDK";
 			sourceTree = "<group>";
 		};
 		E965A6AA762B398D90FFA9E89CD8DD04 /* Products */ = {
@@ -445,15 +447,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		684993B1CF14E5072C9C0FA78833B743 /* Headers */ = {
+		13312F317099CA3B9300BCDE01AE6DEF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C43DB5693A0F7BA2DAB4761C2070747F /* JXLoginManager.h in Headers */,
-				76B25C1AEB734524461098F9904F4EAD /* JXLoginPhoneViewController.h in Headers */,
-				26A694936448F8EC02217E3AE415732A /* JXLoginSDK-umbrella.h in Headers */,
-				4AD3B86726C2D810007F79B2 /* JXLoginService.h in Headers */,
-				157ACA1059D31DA8B9A90EBD90BDC663 /* JXLoginSDK.h in Headers */,
+				808280B60D9CDAE8C70AE6829559BFF1 /* JXUserCompanyInfo.h in Headers */,
+				8047D854DEBB428B2E0FA5A2F86467A3 /* JXUserDataManager.h in Headers */,
+				A9838DED3C356F5FEF51E41318E55935 /* JXUserDataSDK-umbrella.h in Headers */,
+				FCA4DF1989BBCF45B90E24A08A70BA3E /* JXUserDataSDK.h in Headers */,
+				B10CB8F71606C200F8A7EF97F1BA9F88 /* JXUserLoginInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,15 +467,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6249FD25BC209BCE7641E960F89C98E /* Headers */ = {
+		99E101FCF01944976C4AAA378BA25015 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74162E1FA0600564BC25D3CE153B97C0 /* JXUserCompanyInfo.h in Headers */,
-				0EB7EFBAECE5FE697C83A136C2046868 /* JXUserDataManager.h in Headers */,
-				6865B7E3590A4DA54331BD60883748B7 /* JXUserDataSDK-umbrella.h in Headers */,
-				902CA6D35E3687C139876AB9A3114D10 /* JXUserDataSDK.h in Headers */,
-				03C9C4024F924D4FD23851BD1E7FC5EB /* JXUserLoginInfo.h in Headers */,
+				48EC55EA760907F1B1E3860A624F86B6 /* JXLoginManager.h in Headers */,
+				A6F67D3BCBA78660E60D4D8999FA6BE5 /* JXLoginPhoneViewController.h in Headers */,
+				6BFD020D0751B52F2A41198F8E019B16 /* JXLoginSDK-umbrella.h in Headers */,
+				26D86141C64D96672B05201851B887CF /* JXLoginSDK.h in Headers */,
+				7A38EEC7F95C2EC6D1637A38D711E9F0 /* JXLoginService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,9 +506,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				B25D6B6CDD6C26FDFBB959F4E8604470 /* PBXTargetDependency */,
-				C0F473627E750837E7B27A2950748EC3 /* PBXTargetDependency */,
-				45B973455C43E52A0B9CA0124A52D898 /* PBXTargetDependency */,
+				9DBC64DA931C4F06B98A094B1B425B2B /* PBXTargetDependency */,
+				5BE939F55EF9A5D6ABA6919F6FA32431 /* PBXTargetDependency */,
+				02EB9FDF205526AE9AA47FB329A6EB3E /* PBXTargetDependency */,
 			);
 			name = "Pods-JXLoginSDK_Example";
 			productName = "Pods-JXLoginSDK_Example";
@@ -515,11 +517,11 @@
 		};
 		216F635345FA25933E15A00650F2E2EE /* JXLoginSDK-JXLoginSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA58AB83C328827713829E93D0BEFA6A /* Build configuration list for PBXNativeTarget "JXLoginSDK-JXLoginSDK" */;
+			buildConfigurationList = 84D18B844FD86B3959D6BE65E14737C7 /* Build configuration list for PBXNativeTarget "JXLoginSDK-JXLoginSDK" */;
 			buildPhases = (
-				76D64F5CD94F30C7657AB736B47BF4CA /* Sources */,
-				05C47B7D3FC81B1A64C08D5F7BAE5BD7 /* Frameworks */,
-				BD535E17F48F590853A167E0AC493276 /* Resources */,
+				11690E6BC366D2745A3DDF6F0CD84E95 /* Sources */,
+				254D46187DADBB2D8856D2AB4BAB8CBB /* Frameworks */,
+				4113AD79E7C90A44F5FFEFF6E74860DB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -542,7 +544,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C7E261557171074F625427CF8A2972C0 /* PBXTargetDependency */,
+				4B8AE9160B1D894F72415E9C13966ECA /* PBXTargetDependency */,
 			);
 			name = "Pods-JXLoginSDK_Tests";
 			productName = "Pods-JXLoginSDK_Tests";
@@ -551,19 +553,19 @@
 		};
 		52D4205C08AE7C37987464F813562290 /* JXLoginSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43930BBF10D1B64E0DCAB532C757790D /* Build configuration list for PBXNativeTarget "JXLoginSDK" */;
+			buildConfigurationList = 3AFB227DE02E21AE4D08E4FE694AB60D /* Build configuration list for PBXNativeTarget "JXLoginSDK" */;
 			buildPhases = (
-				684993B1CF14E5072C9C0FA78833B743 /* Headers */,
-				64C913AE1739DFBA20674E64D5CCF743 /* Sources */,
-				71F0CF67CD9BAA18150DDB678DA0986F /* Frameworks */,
-				41329EBCD77E4987F7BFA14BE2C79DB1 /* Resources */,
+				99E101FCF01944976C4AAA378BA25015 /* Headers */,
+				79BB2B4DDA09CE19C4483544360C332A /* Sources */,
+				B9FFE09225C07E2BA3B44A61D62D8B79 /* Frameworks */,
+				7A7450911FADE69953AA8A4C5363D6B1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D3A4BFD9674A49E64E95CF4E6F03D0AE /* PBXTargetDependency */,
-				25450F48AF0495EB747E813AEEB1B309 /* PBXTargetDependency */,
-				582E2C98F8536AFEB9B8070177246A41 /* PBXTargetDependency */,
+				CB2F5F79B3DABD168969142E947F8E16 /* PBXTargetDependency */,
+				EC8DDD63FAC491D7E5E63C29B0C6346B /* PBXTargetDependency */,
+				C4BE0ABF0839F3F1D05D5632A5E76272 /* PBXTargetDependency */,
 			);
 			name = JXLoginSDK;
 			productName = JXLoginSDK;
@@ -572,12 +574,12 @@
 		};
 		CDECDB592F355A0C122DDFC4BFD69877 /* JXUserDataSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 138659384A6475601558C6A2A1743F9A /* Build configuration list for PBXNativeTarget "JXUserDataSDK" */;
+			buildConfigurationList = 0D1E7DBA7BA100F54B03D10FD939BC35 /* Build configuration list for PBXNativeTarget "JXUserDataSDK" */;
 			buildPhases = (
-				E6249FD25BC209BCE7641E960F89C98E /* Headers */,
-				8E340C42A2644EED33A97233D78D9EA7 /* Sources */,
-				2E429A4D56C97351E7BFF43D0D8279E2 /* Frameworks */,
-				EEF9FF69C179439A0765A7DDF4A51238 /* Resources */,
+				13312F317099CA3B9300BCDE01AE6DEF /* Headers */,
+				46C94EF76386DE15E7CBA15582A3BF83 /* Sources */,
+				2D8C2F3D53E4DD9C0E8FAFFBE0EBEDF7 /* Frameworks */,
+				12BA55BA45887561F3E504A2ACB9FFBE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -646,6 +648,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		12BA55BA45887561F3E504A2ACB9FFBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2034B93136F42714269FD09352A7DD51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -653,11 +662,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41329EBCD77E4987F7BFA14BE2C79DB1 /* Resources */ = {
+		4113AD79E7C90A44F5FFEFF6E74860DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F556C5BB94A8B7EE8DC1CBA0B5A66874 /* JXLoginSDK.bundle in Resources */,
+				90F758C60D38010A3D7286202265A9E1 /* Image.xcassets in Resources */,
+				C6ADF1382A902B34CC164EEF449C021A /* JXLoginPhoneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,19 +678,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD535E17F48F590853A167E0AC493276 /* Resources */ = {
+		7A7450911FADE69953AA8A4C5363D6B1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41CD048D18BC9C65B156B71177F18D13 /* Image.xcassets in Resources */,
-				F117B7F4F9541C0E0CB9FC92FB0F3946 /* JXLoginPhoneViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EEF9FF69C179439A0765A7DDF4A51238 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7010C550DBAD20A127E03609075EF3CC /* JXLoginSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,6 +699,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		11690E6BC366D2745A3DDF6F0CD84E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28172BF4A0EB02965E22DDB65703340B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -705,31 +714,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64C913AE1739DFBA20674E64D5CCF743 /* Sources */ = {
+		46C94EF76386DE15E7CBA15582A3BF83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A7C89A38458926E031F28696DE3C716 /* JXLoginManager.m in Sources */,
-				33C33DE1C299F9F5534D01CF880859CE /* JXLoginPhoneViewController.m in Sources */,
-				8BE8626F924F996EFD16F25C3BAE38EB /* JXLoginSDK-dummy.m in Sources */,
+				6E1B04BA0E73ACA32790950E688A3FDA /* JXUserCompanyInfo.m in Sources */,
+				30A02FDD1C29D3DD29EEE1AD714A243E /* JXUserDataManager.m in Sources */,
+				DB78D87FD016291643B61F30D178ACFC /* JXUserDataSDK-dummy.m in Sources */,
+				74703998BD3A207C97946BB5CB3528AC /* JXUserLoginInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76D64F5CD94F30C7657AB736B47BF4CA /* Sources */ = {
+		79BB2B4DDA09CE19C4483544360C332A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8E340C42A2644EED33A97233D78D9EA7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F22B9BCFFD354AA6D83225C145D6F0F5 /* JXUserCompanyInfo.m in Sources */,
-				CFE4B3EB2AA08CA0DAA0721CFB17ED2C /* JXUserDataManager.m in Sources */,
-				ED43D77E23078B68D59B1F37EFB8C6C3 /* JXUserDataSDK-dummy.m in Sources */,
-				2AE0AEBF332DCE75D6CBA9386C2B57AD /* JXUserLoginInfo.m in Sources */,
+				2255687A5B24D4152BD3FE4F62A8D6F7 /* JXLoginManager.m in Sources */,
+				E5556986ECD7757195F1347BC6169217 /* JXLoginPhoneViewController.m in Sources */,
+				78F2BF59F1955AFCFA73934FFE566CA8 /* JXLoginSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,47 +746,47 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		25450F48AF0495EB747E813AEEB1B309 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "JXLoginSDK-JXLoginSDK";
-			target = 216F635345FA25933E15A00650F2E2EE /* JXLoginSDK-JXLoginSDK */;
-			targetProxy = 463107073DDE84A05F9B2C1321D4ADB5 /* PBXContainerItemProxy */;
-		};
-		45B973455C43E52A0B9CA0124A52D898 /* PBXTargetDependency */ = {
+		02EB9FDF205526AE9AA47FB329A6EB3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JXUserDataSDK;
 			target = CDECDB592F355A0C122DDFC4BFD69877 /* JXUserDataSDK */;
-			targetProxy = F9BF043D66E04806BE8E3DD0802FBC60 /* PBXContainerItemProxy */;
+			targetProxy = 233F76CD122132F08C84361898CE7352 /* PBXContainerItemProxy */;
 		};
-		582E2C98F8536AFEB9B8070177246A41 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JXUserDataSDK;
-			target = CDECDB592F355A0C122DDFC4BFD69877 /* JXUserDataSDK */;
-			targetProxy = D4EA840DED308B0B2ACD8A4293B4C34F /* PBXContainerItemProxy */;
-		};
-		B25D6B6CDD6C26FDFBB959F4E8604470 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JXBifrost;
-			target = D801394B06BCE60E4E326B248BA25935 /* JXBifrost */;
-			targetProxy = ECFA0601828BDD2CDECC6F21CA8830C5 /* PBXContainerItemProxy */;
-		};
-		C0F473627E750837E7B27A2950748EC3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JXLoginSDK;
-			target = 52D4205C08AE7C37987464F813562290 /* JXLoginSDK */;
-			targetProxy = D4B5C397EA650B407C90B2965E146E36 /* PBXContainerItemProxy */;
-		};
-		C7E261557171074F625427CF8A2972C0 /* PBXTargetDependency */ = {
+		4B8AE9160B1D894F72415E9C13966ECA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JXLoginSDK_Example";
 			target = 14EFC07FD492C85E576F1FF9F2DED547 /* Pods-JXLoginSDK_Example */;
-			targetProxy = 622D58E2F9C0C6E34ED413F56EFB772C /* PBXContainerItemProxy */;
+			targetProxy = 764C5D10467221782DFA7AC421E75070 /* PBXContainerItemProxy */;
 		};
-		D3A4BFD9674A49E64E95CF4E6F03D0AE /* PBXTargetDependency */ = {
+		5BE939F55EF9A5D6ABA6919F6FA32431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXLoginSDK;
+			target = 52D4205C08AE7C37987464F813562290 /* JXLoginSDK */;
+			targetProxy = 8C844DF1E5C2AA509262E66EAEEAD531 /* PBXContainerItemProxy */;
+		};
+		9DBC64DA931C4F06B98A094B1B425B2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JXBifrost;
 			target = D801394B06BCE60E4E326B248BA25935 /* JXBifrost */;
-			targetProxy = 08D4EDE109D29EB894407CBA121EBDD3 /* PBXContainerItemProxy */;
+			targetProxy = 7B42255B91753295DA1D784E6A43F49A /* PBXContainerItemProxy */;
+		};
+		C4BE0ABF0839F3F1D05D5632A5E76272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXUserDataSDK;
+			target = CDECDB592F355A0C122DDFC4BFD69877 /* JXUserDataSDK */;
+			targetProxy = 85443CAD49CF82CB77DE02FD47AE050E /* PBXContainerItemProxy */;
+		};
+		CB2F5F79B3DABD168969142E947F8E16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXBifrost;
+			target = D801394B06BCE60E4E326B248BA25935 /* JXBifrost */;
+			targetProxy = 59266775F53EF3630684158ADD503B83 /* PBXContainerItemProxy */;
+		};
+		EC8DDD63FAC491D7E5E63C29B0C6346B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JXLoginSDK-JXLoginSDK";
+			target = 216F635345FA25933E15A00650F2E2EE /* JXLoginSDK-JXLoginSDK */;
+			targetProxy = F08D9BA341787E76D3715186915FD0EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -848,22 +850,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		12DC106A1B1074E14DC4D5E79158D614 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5C41F89CC7EFEB0BF04A22D65241226 /* JXLoginSDK.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JXLoginSDK";
-				IBSC_MODULE = JXLoginSDK;
-				INFOPLIST_FILE = "Target Support Files/JXLoginSDK/ResourceBundle-JXLoginSDK-JXLoginSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = JXLoginSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -933,6 +919,37 @@
 			};
 			name = Debug;
 		};
+		329EE45ACADDA5039BD7531A2CD32989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C216474A06BA0A76D6525B5E1D1144 /* JXLoginSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXLoginSDK/JXLoginSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXLoginSDK/JXLoginSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXLoginSDK/JXLoginSDK.modulemap";
+				PRODUCT_MODULE_NAME = JXLoginSDK;
+				PRODUCT_NAME = JXLoginSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		330C9021117DA8E95BD29F9DE0F49CEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA2CFBEFDB705F097965ECE8D50F2D9C /* Pods-JXLoginSDK_Tests.debug.xcconfig */;
@@ -965,9 +982,41 @@
 			};
 			name = Debug;
 		};
-		48390F92A8EB9FBAC76B43A0DB50E07F /* Debug */ = {
+		3D372637C6DA2B12CC96F4F5BD65F8F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5C41F89CC7EFEB0BF04A22D65241226 /* JXLoginSDK.debug.xcconfig */;
+			baseConfigurationReference = 32C216474A06BA0A76D6525B5E1D1144 /* JXLoginSDK.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JXLoginSDK";
+				IBSC_MODULE = JXLoginSDK;
+				INFOPLIST_FILE = "Target Support Files/JXLoginSDK/ResourceBundle-JXLoginSDK-JXLoginSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = JXLoginSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		44B6F2CBA3CE7EB649DB67DA72DFF939 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DB04B5E405AB0606B49E8FD28D4CA22 /* JXLoginSDK.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JXLoginSDK";
+				IBSC_MODULE = JXLoginSDK;
+				INFOPLIST_FILE = "Target Support Files/JXLoginSDK/ResourceBundle-JXLoginSDK-JXLoginSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = JXLoginSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6B3EA70A9840612F07042451040AAA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DB04B5E405AB0606B49E8FD28D4CA22 /* JXLoginSDK.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -994,37 +1043,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		6A5CAC9CD7451A6CE8D966BE95B82D3B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30FEE09B68D0B2863D222B6D453BEA02 /* JXLoginSDK.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JXLoginSDK/JXLoginSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JXLoginSDK/JXLoginSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JXLoginSDK/JXLoginSDK.modulemap";
-				PRODUCT_MODULE_NAME = JXLoginSDK;
-				PRODUCT_NAME = JXLoginSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8320A882220AD8D1D01A1C45EB9CC677 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1056,6 +1074,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8AFF2CB55C5CA5B684DEA19F189B1ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193A73685443F5D0B352EC7DEB1A4DBB /* JXUserDataSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXUserDataSDK/JXUserDataSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXUserDataSDK/JXUserDataSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXUserDataSDK/JXUserDataSDK.modulemap";
+				PRODUCT_MODULE_NAME = JXUserDataSDK;
+				PRODUCT_NAME = JXUserDataSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B4394C7F5000CF9CC6F8679C95F4E9AE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1123,7 +1171,7 @@
 			};
 			name = Release;
 		};
-		B850AC5EC05A2C4ABA75EA1204D05C19 /* Release */ = {
+		BABF908E01C18793FEE4C31AED292EA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB6E8CB34444357BD491D2000EEC22C4 /* JXUserDataSDK.release.xcconfig */;
 			buildSettings = {
@@ -1151,22 +1199,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BAFBBD5C8EFC97E1AFCA7E3CD2AF283C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30FEE09B68D0B2863D222B6D453BEA02 /* JXLoginSDK.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JXLoginSDK";
-				IBSC_MODULE = JXLoginSDK;
-				INFOPLIST_FILE = "Target Support Files/JXLoginSDK/ResourceBundle-JXLoginSDK-JXLoginSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = JXLoginSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1225,50 +1257,21 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		D45093AC6F0F85B4A434473A24FB43D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 193A73685443F5D0B352EC7DEB1A4DBB /* JXUserDataSDK.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JXUserDataSDK/JXUserDataSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JXUserDataSDK/JXUserDataSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JXUserDataSDK/JXUserDataSDK.modulemap";
-				PRODUCT_MODULE_NAME = JXUserDataSDK;
-				PRODUCT_NAME = JXUserDataSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		138659384A6475601558C6A2A1743F9A /* Build configuration list for PBXNativeTarget "JXUserDataSDK" */ = {
+		0D1E7DBA7BA100F54B03D10FD939BC35 /* Build configuration list for PBXNativeTarget "JXUserDataSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D45093AC6F0F85B4A434473A24FB43D1 /* Debug */,
-				B850AC5EC05A2C4ABA75EA1204D05C19 /* Release */,
+				8AFF2CB55C5CA5B684DEA19F189B1ACF /* Debug */,
+				BABF908E01C18793FEE4C31AED292EA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1282,11 +1285,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43930BBF10D1B64E0DCAB532C757790D /* Build configuration list for PBXNativeTarget "JXLoginSDK" */ = {
+		3AFB227DE02E21AE4D08E4FE694AB60D /* Build configuration list for PBXNativeTarget "JXLoginSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48390F92A8EB9FBAC76B43A0DB50E07F /* Debug */,
-				6A5CAC9CD7451A6CE8D966BE95B82D3B /* Release */,
+				6B3EA70A9840612F07042451040AAA47 /* Debug */,
+				329EE45ACADDA5039BD7531A2CD32989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1300,20 +1303,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		84D18B844FD86B3959D6BE65E14737C7 /* Build configuration list for PBXNativeTarget "JXLoginSDK-JXLoginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B6F2CBA3CE7EB649DB67DA72DFF939 /* Debug */,
+				3D372637C6DA2B12CC96F4F5BD65F8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9C5DF24C757D820CFEB68581855183E5 /* Build configuration list for PBXNativeTarget "Pods-JXLoginSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				121B3BD7985AF981FD9BE516A4D51A10 /* Debug */,
 				B4394C7F5000CF9CC6F8679C95F4E9AE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA58AB83C328827713829E93D0BEFA6A /* Build configuration list for PBXNativeTarget "JXLoginSDK-JXLoginSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				12DC106A1B1074E14DC4D5E79158D614 /* Debug */,
-				BAFBBD5C8EFC97E1AFCA7E3CD2AF283C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

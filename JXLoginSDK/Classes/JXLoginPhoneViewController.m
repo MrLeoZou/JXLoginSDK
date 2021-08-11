@@ -33,7 +33,10 @@ static NSString * const kRouteProfilePage = @"//Profile/Profile_page";
 }
 
 - (void)loadView {
-    self.view = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self.class) owner:self options:nil].firstObject;
+    NSBundle *bundle = [NSBundle bundleForClass:self.class];
+    NSString *path = [bundle pathForResource:@"JXLoginSDK" ofType:@"bundle"];
+    bundle = [NSBundle bundleWithPath:path];
+    self.view = [bundle loadNibNamed:NSStringFromClass(self.class) owner:self options:nil].firstObject;
 }
 
 - (void)viewDidLoad {

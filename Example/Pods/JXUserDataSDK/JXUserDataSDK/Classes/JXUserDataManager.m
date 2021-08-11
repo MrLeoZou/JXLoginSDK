@@ -10,6 +10,14 @@
 static NSString * const JXUserLoginInfoKey = @"JXUserLoginInfoKey";
 static NSString * const JXCompanyInfoKey = @"JXCompanyInfoKey";
 
+@interface JXUserDataManager ()
+
+// TODO: demo随便存取，实际上不会用属性。
+@property (nonatomic, strong) JXUserLoginInfo *userInfo;
+@property (nonatomic, strong) JXUserCompanyInfo *company;
+
+@end
+
 @implementation JXUserDataManager
 
 static JXUserDataManager *manager = nil;
@@ -24,25 +32,25 @@ static JXUserDataManager *manager = nil;
 - (void)storeLoginInfo:(JXUserLoginInfo *)info {
     // TODO: 存储逻辑，数据库，归档，document...
     //demo 随便存取
-    [[NSUserDefaults standardUserDefaults] setObject:info forKey:JXUserLoginInfoKey];
+    self.userInfo = info;
 }
 
 - (void)storeCompanyInfo:(JXUserCompanyInfo *)info {
     // TODO: 存储逻辑，数据库，归档，document...
     //demo 随便存取
-    [[NSUserDefaults standardUserDefaults] setObject:info forKey:JXCompanyInfoKey];
+    self.company = info;
 }
 
 - (JXUserCompanyInfo *)companyInfo {
     // TODO: 存储逻辑，数据库，归档，document...
     //demo 随便存取
-    return [[NSUserDefaults standardUserDefaults] objectForKey:JXCompanyInfoKey];
+    return _company;
 }
 
 - (JXUserLoginInfo *)loginInfo {
     // TODO: 存储逻辑，数据库，归档，document...
     //demo 随便存取
-    return [[NSUserDefaults standardUserDefaults] objectForKey:JXUserLoginInfoKey];
+    return _userInfo;
 }
 
 @end
